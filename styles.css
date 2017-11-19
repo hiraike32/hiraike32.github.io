@@ -1,0 +1,278 @@
+/*========RESET CSS　ここから============*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* デフォルト設定 */
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* デフォルト設定*/
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+/*========RESET CSS　ここまで============*/
+
+/*サイズの設定*/
+body,header, div, footer{
+  width: 100%;
+  font-family: "a-otf-ryumin-pr6n",serif,"MS PGothic", "Osaka", Arial, sans-serif;
+}
+
+.content{
+  max-width:900px;
+  width:100%;
+  margin:0 auto;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*ヘッダーメニューの設定*/
+header{
+  background-color: rgba(0,0,0,0.8);
+  height:60px;
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+
+header p{
+  float:left;
+  color:#fff;
+  font-size:24px;
+  padding:18px 30px;
+}
+
+header a{
+  color:#fff;
+  text-decoration: none;
+}
+
+ul{
+  float:right;
+}
+
+li{
+  float:left;
+}
+
+li a{
+  font-size: 16px;
+  color:#fff;
+  text-decoration: none;
+  display:inline-block;
+  padding:22px 30px;
+}
+
+
+/*homeの設定*/
+
+#home{
+  width:100%;
+  margin-top: 25px;
+}
+
+
+/*aboutの設定*/
+
+#about{
+  padding:70px 0;
+}
+
+h2{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom:40px;
+  border-bottom: 2px solid #000;
+}
+
+h3{
+  font-size: 40px;
+  text-align: center;
+}
+
+.hobbys{
+  width:100%;
+  margin-top:30px;
+}
+
+.hobby{
+  width:33%;
+  float:left;
+  margin:0 auto;
+  text-align: center;
+  padding:0 10px;
+}
+
+.hobby img{
+  display: inline-block;
+  margin: 0 auto;
+  width:150px;
+}
+
+h4{
+  font-size: 25px;
+  padding:10px;
+  text-align: center;
+}
+
+.hobby p{
+  font-size:16px;
+  line-height: 150%;
+}
+
+.clear{
+  clear: both;
+}
+
+/*worksの設定*/
+.work{
+  margin:60px auto;
+}
+
+/*pictureの設定*/
+.picture{
+  float:left;
+  display:inline-block;
+  width:33%;
+  padding:20px 10px
+}
+
+.picture img{
+  width:100%;
+  margin-bottom: 5px;
+}
+
+/*moviesの設定*/
+.movie {
+  text-align: center;
+  padding:40px 0;
+  width:576px;
+  margin:0 auto;
+}
+
+.movie p{
+  text-align: left;
+  padding-top:10px;
+  line-height: 150%;
+}
+
+/*writingsの設定*/
+.writing{
+  width:33%;
+  text-align: center;
+  float:left;
+  padding:40px 10px;
+}
+
+.site-picture{
+  height:140px;
+}
+
+.writing img{
+  width:80%;
+  padding:20px 10px;
+}
+
+.writing p{
+  text-align: left;
+  line-height: 150%;
+}
+
+.writing a{
+    text-decoration: none;
+    color:#3077FF;
+}
+
+.writing a:hover{
+  color:#A9BAFF;
+}
+
+/*footerの設定*/
+footer{
+  height:60px;
+  background-color: rgba(0,0,0,0.8);
+  color:#fff;
+}
+
+footer p{
+  padding:20px 0;
+}
