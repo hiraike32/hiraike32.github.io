@@ -90,15 +90,25 @@ vertical-align:middle;
 /*========RESET CSS　ここまで============*/
 
 /*サイズの設定*/
+
+html{
+  margin: 0;
+  padding: 0;
+}
 body,header, div, footer{
   width: 100%;
   font-family: "a-otf-ryumin-pr6n",serif,"MS PGothic", "Osaka", Arial, sans-serif;
 }
 
-.content{
-  max-width:900px;
-  width:100%;
+body{
+  background: #e8e8e8;
+}
+
+#content{
+  width: 1100px;
   margin:0 auto;
+  padding: 0 100px 30px 100px;
+  background: #fff;
 }
 
 *{
@@ -107,11 +117,16 @@ body,header, div, footer{
 
 /*ヘッダーメニューの設定*/
 header{
-  background-color: rgba(0,0,0,0.8);
+  background-color: #000;
   height:60px;
   position: fixed;
   top:0;
   z-index: 10;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 header p{
@@ -148,6 +163,11 @@ li a{
 #home{
   width:100%;
   margin-top: 25px;
+}
+
+#main_photo{
+  width: 900px;
+  margin-top: 50px;
 }
 
 
@@ -208,19 +228,6 @@ h4{
   margin:60px auto;
 }
 
-/*pictureの設定*/
-.picture{
-  float:left;
-  display:inline-block;
-  width:33%;
-  padding:20px 10px
-}
-
-.picture img{
-  width:100%;
-  margin-bottom: 5px;
-}
-
 /*moviesの設定*/
 .movie {
   text-align: center;
@@ -264,6 +271,16 @@ h4{
 
 .writing a:hover{
   color:#A9BAFF;
+}
+
+/*codesの設定*/
+.source{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.source a img{
+  width: 300px;
 }
 
 /*footerの設定*/
