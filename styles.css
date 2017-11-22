@@ -95,6 +95,7 @@ html{
   margin: 0;
   padding: 0;
 }
+
 body,header, div, footer{
   width: 100%;
   font-family: "a-otf-ryumin-pr6n",serif,"MS PGothic", "Osaka", Arial, sans-serif;
@@ -139,6 +140,10 @@ header p{
 header a{
   color:#fff;
   text-decoration: none;
+}
+
+header a:hover{
+  opacity: 0.6;
 }
 
 ul{
@@ -228,6 +233,10 @@ h4{
   margin:60px auto;
 }
 
+.work img:hover{
+  opacity: 0.6;
+}
+
 /*moviesの設定*/
 .movie {
   text-align: center;
@@ -238,6 +247,10 @@ h4{
 
 .movie a{
   color:#3077FF;
+}
+
+.movie a:hover{
+  color:#A9BAFF;
 }
 
 .movie p{
@@ -285,6 +298,10 @@ h4{
 
 .source a img{
   width: 300px;
+}
+
+.source a img:hover{
+  opacity: 0.6;
 }
 
 /*footerの設定*/
