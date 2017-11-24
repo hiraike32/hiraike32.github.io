@@ -7,9 +7,17 @@ $(window).scroll(function(){
   		var targetPosition = $(this).offset().top;
   		if(topWindow > targetPosition - windowHeight + 200){
    			$(this).addClass("fadeInDown");
+   			$('body').animate({background:'#000'}, 'slow');
   		}
   	});
   	$('#works').each(function(){
+  		var targetPosition = $(this).offset().top;
+  		if(topWindow > targetPosition - windowHeight + 200){
+   			$(this).addClass("fadeInDown");
+ 		}
+	});
+
+	$('#works').each(function(){
   		var targetPosition = $(this).offset().top;
   		if(topWindow > targetPosition - windowHeight + 200){
    			$(this).addClass("fadeInDown");
