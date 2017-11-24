@@ -307,10 +307,31 @@ h4{
 /*footerの設定*/
 footer{
   height:60px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: #000;
   color:#fff;
 }
 
 footer p{
   padding:20px 0;
+}
+
+/*フェードインの実装*/
+.fadeInDown {
+  -webkit-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-duration:2s;
+  -ms-animation-duration:2s;
+  animation-duration:2s;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+  0% { opacity: 0; -webkit-transform: translateY(-40px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+  0% { opacity: 0; -webkit-transform: translateY(-40px); -ms-transform: translateY(-40px); transform: translateY(-40px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
 }
