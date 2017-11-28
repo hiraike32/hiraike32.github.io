@@ -208,7 +208,7 @@ h1{
 h2{
   font-size: 50px;
   text-align: center;
-  margin-bottom:50px;
+  margin-bottom: 50px;
   border-bottom: 2px solid #fff;
 }
 
@@ -251,21 +251,29 @@ h4{
   clear: both;
 }
 
-/*worksの設定*/
-.work{
-  margin:60px auto;
-}
-
-.work img:hover{
-  opacity: 0.6;
-}
-
 /*moviesの設定*/
+#movie{
+  margin-bottom: 150px;
+}
+
 .movie {
-  text-align: center;
-  padding:40px 0;
   width:576px;
   margin:0 auto;
+}
+
+.movie iframe{
+  margin-bottom: 50px;
+}
+
+.adobe{
+  margin-bottom: 50px;
+  height: 85px;
+}
+
+.movie img{
+  width: 25%;
+  float: left;
+  padding: 0 30px;
 }
 
 .movie a{
@@ -278,7 +286,6 @@ h4{
 
 .movie p{
   text-align: left;
-  padding-top:10px;
   line-height: 150%;
 }
 

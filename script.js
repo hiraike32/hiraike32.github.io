@@ -1,7 +1,7 @@
 $(function(){
 
   //スクロール時にコンテンツを出現させる
-  $('#about, #works').css('visibility','hidden');
+  $('#about, #movie').css('visibility','hidden');
   $(window).scroll(function(){
     var windowHeight = $(window).height(),
         topWindow = $(window).scrollTop();
@@ -11,7 +11,7 @@ $(function(){
           $(this).addClass("fadeInDown");
         }
     });
-    $('#works').each(function(){
+    $('#movie').each(function(){
         var targetPosition = $(this).offset().top;
         if(topWindow > targetPosition - windowHeight + 200){
           $(this).addClass("fadeInDown");
