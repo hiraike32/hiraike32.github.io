@@ -187,6 +187,7 @@ li a{
 #home{
   width:100%;
   margin-top: 25px;
+  margin-bottom: 100px;
   height: 500px;
 }
 
@@ -201,7 +202,7 @@ h1{
 /*aboutの設定*/
 
 #about{
-  padding:70px 0;
+  margin-bottom: 150px;
 }
 
 h2{
@@ -219,7 +220,7 @@ h3{
 
 .hobbys{
   width:100%;
-  margin-bottom:50px;
+  margin-bottom:100px;
 }
 
 .hobby{
@@ -242,7 +243,6 @@ h4{
 }
 
 .hobby p{
-  font-size:16px;
   line-height: 150%;
   text-align: left;
 }
