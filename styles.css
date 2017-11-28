@@ -98,27 +98,45 @@ html{
 
 body,header, div, footer{
   width: 100%;
-  font-family: "a-otf-ryumin-pr6n",serif,"MS PGothic", "Osaka", Arial, sans-serif;
+ font-family:'PT Mono', monospace, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
 }
 
 body{
-  background: #fff;
+  background: #000;
 }
 
 #content{
   width: 1100px;
   margin:0 auto;
   padding: 0 100px 30px 100px;
-  background: #fff;
+  background: #000;
+  color: #fff;
 }
 
 *{
   box-sizing: border-box;
 }
 
+/*文字色の設定*/
+.red{
+  color: #FE2E2E;
+}
+
+.green{
+  color: #00FF00;
+}
+
+.yellow{
+  color: #FFFF00;
+}
+
+.blue{
+  color: #2EFEF7;
+}
+
 /*ヘッダーメニューの設定*/
 header{
-  background-color: #000;
+  background-color: #2E2E2E;
   height:60px;
   position: fixed;
   top:0;
@@ -148,6 +166,7 @@ header a:hover{
 
 ul{
   float:right;
+  list-style:none;
 }
 
 li{
@@ -168,13 +187,16 @@ li a{
 #home{
   width:100%;
   margin-top: 25px;
+  height: 500px;
 }
 
-#main_photo{
-  width: 900px;
-  margin-top: 50px;
+h1{
+  font-size: 50px;
+  color: #fff;
+  padding-top: 250px;
+  margin-bottom: 30px;
+  text-align: center;
 }
-
 
 /*aboutの設定*/
 
@@ -185,18 +207,19 @@ li a{
 h2{
   font-size: 50px;
   text-align: center;
-  margin-bottom:40px;
-  border-bottom: 2px solid #000;
+  margin-bottom:50px;
+  border-bottom: 2px solid #fff;
 }
 
 h3{
   font-size: 40px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .hobbys{
   width:100%;
-  margin-top:30px;
+  margin-bottom:50px;
 }
 
 .hobby{
@@ -204,24 +227,24 @@ h3{
   float:left;
   margin:0 auto;
   text-align: center;
-  padding:0 10px;
+  padding:0 50px;
 }
 
 .hobby img{
   display: inline-block;
-  margin: 0 auto;
-  width:150px;
+  margin-bottom: 25px;
+  width:130px;
 }
 
 h4{
   font-size: 25px;
-  padding:10px;
-  text-align: center;
+  margin-bottom: 25px;
 }
 
 .hobby p{
   font-size:16px;
   line-height: 150%;
+  text-align: left;
 }
 
 .clear{
@@ -307,7 +330,7 @@ h4{
 /*footerの設定*/
 footer{
   height:60px;
-  background-color: #000;
+  background-color: #2E2E2E;
   color:#fff;
 }
 
