@@ -108,7 +108,7 @@ body{
 #content{
   width: 1100px;
   margin:0 auto;
-  padding: 0 100px 30px 100px;
+  padding: 0 100px;
   background: #000;
   color: #fff;
 }
@@ -267,7 +267,7 @@ h4{
 
 .adobe{
   margin-bottom: 50px;
-  height: 85px;
+  height: 130px;
 }
 
 .movie img{
@@ -276,12 +276,8 @@ h4{
   padding: 0 30px;
 }
 
-.movie a{
-  color:#3077FF;
-}
-
 .movie a:hover{
-  color:#A9BAFF;
+  opacity: 0.7;
 }
 
 .movie p{
@@ -290,39 +286,60 @@ h4{
 }
 
 /*writingsの設定*/
+#writings{
+  margin-bottom: 150px;
+}
+
 .writing{
   width:33%;
   text-align: center;
   float:left;
-  padding:40px 10px;
+  padding:0 50px;
 }
 
 .site-picture{
-  height:140px;
+  height:120px;
 }
 
 .writing img{
-  width:80%;
-  padding:20px 10px;
+  width:100%;
+  padding:0 10px;
+  margin-bottom: 10px;
+}
+
+.writings-about{
+  margin-bottom: 25px;
 }
 
 .writing p{
   text-align: left;
   line-height: 150%;
+  margin-bottom: 10px;
+}
+
+.writing .writings-dsc{
+  margin-bottom: 30px;
 }
 
 .writing a{
     text-decoration: none;
-    color:#3077FF;
 }
 
 .writing a:hover{
-  color:#A9BAFF;
+  opacity: 0.7;
 }
 
-/*codesの設定*/
+/*picturesの設定*/
+#pictures{
+  margin-bottom: 150px;
+}
+
+/*codingsの設定*/
+#codings{
+  margin-bottom: 150px;
+}
+
 .source{
-  margin: 20px auto;
   text-align: center;
 }
 
