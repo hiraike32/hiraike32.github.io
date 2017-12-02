@@ -134,6 +134,10 @@ body{
   color: #2EFEF7;
 }
 
+.gray{
+  color: #D8D8D8;
+}
+
 /*ヘッダーメニューの設定*/
 header{
   background-color: #2E2E2E;
@@ -332,6 +336,38 @@ h4{
 /*picturesの設定*/
 #pictures{
   margin-bottom: 150px;
+}
+
+.pictures{
+  margin-bottom: 50px;
+}
+
+.photo{
+  width: 33%;
+  padding: 15px;
+  float: left;
+  text-align: center;
+}
+
+.photo img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.photo p{
+  text-align: left;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+
+.photo .name{
+  font-size: 20px;
+}
+
+
+.photo .description{
+  margin-top: -5px;
+  font-size: small;
 }
 
 /*codingsの設定*/
