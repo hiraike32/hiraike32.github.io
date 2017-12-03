@@ -48,5 +48,39 @@ $(function(){
     //imagePath: ""
   });
 
+  // モーダルの表示
+  $('.photo img').on('click', function(){
+    $('#mask').removeClass('hidden');
+    $('#photo_modal img').attr('src', $(this).attr('src'));
+    $(this).addClass('active');
+    $('#modal').removeClass('hidden');
+  });
+
+  //モーダルの画像切り替え
+  $('#left').on('click', function(){
+    var move_photo = $('.active').parent().prev().children();
+    if(move_photo.attr('src')){      
+      $('#photo_modal img').attr('src', move_photo.attr('src'));
+      $('.active').removeClass('active');
+      move_photo.addClass('active');
+    }
+  });
+
+  $('#right').on('click', function(){
+    var move_photo = $('.active').parent().next().children();
+    if(move_photo.attr('src')){      
+      $('#photo_modal img').attr('src', move_photo.attr('src'));
+      $('.active').removeClass('active');
+      move_photo.addClass('active');
+    }
+  });
+
+  //モーダルを閉じる
+  $('#mask').on('click', function(){
+    $('#mask').addClass('hidden');
+    $('#modal').addClass('hidden');
+    $('.active').removeClass('active');
+  });
+
 });
 

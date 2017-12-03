@@ -14,6 +14,15 @@
 
 <body>
   <div id="fakeLoader"></div>
+  <!-- モーダルの設定 -->
+  <div id="mask" class="hidden"></div>
+  <div id="modal" class="hidden">
+    <div id="photo_modal">
+      <img src="img/works_picture/ogasawara.jpg">
+    </div>
+    <img src="img/left.png" id="left" class="button_modal">
+    <img src="img/right.png" id="right" class="button_modal">
+  </div>
   <header>
     <div class="container">
       <p><a href="#home"><span class="red">T</span>akuya <span class="red">H</span>iraike</a></p>
@@ -128,7 +137,7 @@
       <h2><span class="red">P</span>ictures</h2>
       <div class="pictures">
         <div class="photo">
-          <img src="img/works_picture/ogasawara.jpg">
+          <img src="img/works_picture/ogasawara.jpg" id="ogasawara">
           <p class="red">2017/02</p>
           <p class="green name">Sunset</p>
           <p class="yellow description">小笠原諸島</p>
