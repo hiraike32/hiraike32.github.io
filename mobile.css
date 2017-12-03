@@ -123,10 +123,15 @@ h2{
   border-bottom: 2px solid #fff;
 }
 
+#about h3{
+	display: none;
+}
+
 h3{
   font-size: 2em;
   text-align: center;
   margin-bottom: 50px;
+  line-height: 1.5;
 }
 
 .hobbys{
@@ -217,7 +222,7 @@ h4{
 }
 
 .writing img{
-  width:100%;
+  width:80%;
   padding:0 10px;
   margin-bottom: 30px;
 }
@@ -302,7 +307,7 @@ h4{
   position: fixed;
   right: 0;
   left: 0;
-  margin: 0 auto;
+  margin: auto;
   transition: .5s;
   z-index: 10;
 }
@@ -318,10 +323,12 @@ h4{
 
 .button_modal{
   position: absolute;
+  top: 80px;
   opacity: 0.5;
   cursor: pointer;
-  top: 240px;
+  width: 40px;
 }
+
 
 #left{
   left: 0;
@@ -359,7 +366,7 @@ h4{
 }
 
 .source a img{
-  width: 300px;
+  width: 200px;
 }
 
 .source a img:hover{
@@ -368,13 +375,14 @@ h4{
 
 /*footerの設定*/
 footer{
-  height:60px;
+  height:40px;
   background-color: #2E2E2E;
   color:#fff;
 }
 
 footer p{
-  padding:20px 0;
+  padding:15px 10px;
+  font-size: 10px;
 }
 
 /*フェードインの実装*/
