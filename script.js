@@ -41,7 +41,7 @@ $(function(){
 
   //ロード時のアニメーションを設定
   $("#fakeLoader").fakeLoader({
-    timeToHide: 0,
+    timeToHide: 1500,
     zIndex: "999",
     spinner: "spinner5",
     bgColor: "#000",
